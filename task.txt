@@ -1,0 +1,59 @@
+1.List 5 difference between Browser JS(console) v Nodejs
+A.               
+
+                          Browser JS(console)                                                   Node JS
+
+ 1.     Javascript can only be run in the browsers.                   We can run Javascript outside the browser with the help of NodeJS.
+
+ 2.         It is basically used on the client-side.                              It is mostly used on the server-side.
+
+ 3.     Moduling is not mandatory in client side JavaScript,          Require object is predefined in Node which is used to include  
+                   i.e. in browsers.                                                          modules  in the app.
+
+ 4.   Window is a predefined global object which has functions     Node doesn’t have a predefined window object cause it doesn’t 
+         and attributes, that have to deal with window                                have a window to draw anything.
+             that has been drawn.                                                          
+
+ 5.   Location is another predefined object in browsers, that       Location object is related to a particular url; that means it is 
+        has all the information about the url we have loaded.                 for page specific. So, node doesn’t require that.
+                           
+
+2.watch & summary 5 points -   https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf     
+ 
+A.  1. Bindings involves parsing, Rendering, Layout, painting.
+   
+    2. Parsing HTML: HTML is forgiving by nature, parsing isnt straight forward & It can be halted
+       It has Parse tree and DOM tree.
+     
+    3. Using Script Tag at the bottom will gives parse uninterrupted & Faster to render.
+
+    4. DOM + CSSOM: combines the two object models, style the resolution
+                    This is the actual representation of what will show on screen.
+
+    5. Paint setup: It will take the layed out render tress , creates layers, Incremental process & Builds up over 12 phases
+
+3.Execute the below code and write your description in txt file
+ typeof(1)
+ typeof(1.1)
+ typeof('1.1')
+ typeof(true)
+ typeof(null)
+ typeof(undefined)
+ typeof([])
+ typeof({})
+ typeof(NaN)  
+
+A. 1.typeof(1) is a number
+   2.typeof(1.1) is a number
+   3.typeof('1.1') is  string
+   4.typeof(true) is  Boolean
+   5.typeof(null) is object
+   6. typeof(undefined) is Undefined
+   7.typeof([]) is object
+   8.typeof({}) is object
+   typeof(NaN)  is a Number
+
+
+
+                                   
+ 
